@@ -36,3 +36,7 @@ people=[
        {'name':'neo','age': 28}
 ]
 print(people[0]['age'])
+
+
+
+print ("no world")
