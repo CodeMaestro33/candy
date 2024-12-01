@@ -1,8 +1,14 @@
 on:
   schedule:
-    - cron: "0 6 * * *"  # Runs at 6:00 AM UTC
-    - cron: "0 14 * * *" # Runs at 2:00 PM UTC
-    - cron: "0 22 * * *" # Runs at 10:00 PM UTC
+    - cron: "0 6 * * *"  # 6:00 AM (Morning)
+    - cron: "30 9 * * *" # 9:30 AM (Morning)
+    - cron: "0 12 * * *" # 12:00 PM (Noon)
+    - cron: "30 15 * * *" # 3:30 PM (Noon)
+    - cron: "0 18 * * *" # 6:00 PM (Evening)
+    - cron: "30 20 * * *" # 8:30 PM (Evening)
+    - cron: "0 22 * * *" # 10:00 PM (Night)
+    - cron: "30 23 * * *" # 11:30 PM (Night)
+
 
 jobs:
   build:
