@@ -1,7 +1,7 @@
 #JUST RUN IT
 on:
   schedule:
-    - cron: "0,30 * * * *"
+    - cron: "*/28 * * * *"
 
 jobs:
   build:
